@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Fredoka&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
 
 *{
     padding: 0;
@@ -6,24 +7,27 @@
     box-sizing: border-box;
 }
 
+
 body{
     font-family: 'Fredoka', sans-serif;
 }
 
+
 #maincontainer{
     width: 80%;
-    height: 500px;
-    border: 2px solid black;
-    margin: 30px auto;
+    margin: 50px auto;
 }
 header{
     text-align: center;
 }
 
 header h1{
+    font-family: 'Fredoka One', cursive;
     color: rgb(255, 68, 130);
+    margin-bottom: 40px;
     font-size: 34px;
-    margin-bottom: 20px;
+    
+
 }
 
 header p{
@@ -39,12 +43,34 @@ header p{
 }
 
 .card{
-    border: 1px solid black;
     width: calc(88%/3);
-    margin:2%;
+    margin:1% 2%;
     height: 100px;
     float: left;
     margin-top: 50px;
-    background-color: blue;
-    
+    background-color: rgb(15, 15, 48);
+}
+
+
+.photo{
+    float: left;
+}
+
+.photo img{
+    height: 100px;
+    margin-right: 10px;
+}
+
+.reference{
+    color: #fff;
+    margin: 2%;
+}
+
+.name{
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.mail{
+    color: rgb(99, 195, 255);
 }
